@@ -7,7 +7,8 @@ body {
 }
 h1 {
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1.4em;
+	font-weight: ;
 }
 section.pic {
 	text-align: center;
@@ -17,10 +18,6 @@ section.pic >div>a>img {
 }
 section.pic span{
 	font-weight: bold;
-}
-.img {
-
-	border: 2em;
 }
 
 section ul {
@@ -38,10 +35,7 @@ section.select a:hover, a:active{
 	color: #FFDC00;
 	background-color: #111;
 }
-#AboutMe:hover{
-	background: black;
 
-}
 section.select a{
  	font-family: sans-serif;
  	display: inline-block;
@@ -59,5 +53,9 @@ section.select a{
 	position: relative;
 	border-radius: 10px; 
 	margin-bottom: 1px;
-
+	-webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    transition: all 300ms ease;
+    
 }
