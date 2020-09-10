@@ -10,6 +10,11 @@ h1 {
 	font-size: 1.4em;
 	font-weight: ;
 }
+p {
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: normal;
+}
 section.pic {
 	text-align: center;
 }
