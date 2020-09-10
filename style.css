@@ -1,33 +1,63 @@
 body {
-	background-image:url("https://i.pinimg.com/564x/60/00/ca/6000caf22dfb0749d0a40d488eaa0dc7.jpg");
-	font-family: Arial, Helvetica, Serif;
+	background-color: ##f7fadc;
+	font-family: Arial, Helvetica, sans-serif;
 }
 * {
 	box-sizing: content-box;
 }
-
 h1 {
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.3em;
+}
+section.pic {
+	text-align: center;
+}
+section.pic >div>a>img {
+	border-radius: 50%;
+}
+section.pic span{
+	font-weight: bold;
+}
+.img {
+
+	border: 2em;
 }
 
-.pic section {
-	margin: 20px;
-}
-#Selection a:link, a:visited {
-	color: purple;	
-	text-decoration: none;
-	background-color: cyan;
-	border: 1px solid blue;
-	margin-bottom: 1px;
-	display: block;
-	width: 200px;
+section ul {
+	list-style: none;
+	margin: auto;
 	text-align: center;
-	color: purple;
-	margin-left: 40%;
+
 }
-#Section a:hover, a:active {
-	cursor: pointer;
-	background-color: blue;
-	color: white;
+section.select a:link, a:visited{
+	color : #326891;
+	background-color: transparent;
+	text-decoration: none;
+}
+section.select a:hover, a:active{
+	color: #FFDC00;
+	background-color: #111;
+}
+#AboutMe:hover{
+	background: black;
+
+}
+section.select a{
+ 	font-family: sans-serif;
+ 	display: inline-block;
+ 	text-align: center;
+ 	text-indent: none;
+ 	font-weight: bold;
+	background-color: transparent;
+	width: 9em;
+	margin: auto;
+	border: 2px solid #111;
+	padding: 18px 0;
+	letter-spacing: 0.4px;
+	line-height: 1;
+	text-transform: uppercase;
+	position: relative;
+	border-radius: 10px; 
+	margin-bottom: 1px;
+
 }
