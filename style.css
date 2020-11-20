@@ -1,10 +1,12 @@
 @font-face {
   font-family: myFirstFont;
   src: url(Open_Sans/OpenSans-SemiBold.ttf);
+  font-family: CanterallImported;
+  src: url(Cantarell/Cantarell-Regular.ttf);
 }
 	
 body {
-	font-family: Cantarell, myFirstFont, sans-serif;
+	font-family: CanterallImported, myFirstFont, sans-serif;
 	margin-top: 0px;
 	padding: 10px;
 	overflow: auto;
