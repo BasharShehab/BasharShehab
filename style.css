@@ -14,8 +14,8 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	padding-top: 25%; 
-    margin-top: 50%;
-    margin-bottom: -18%;
+/*    margin-top: 50%;
+*/    margin-bottom: -18%;
     margin-left: -1.2%;
     margin-right: -1%;
 
@@ -109,8 +109,8 @@ section.select a{
 }
 
 section.aboutMe , section.other , section.favourites, section.goals{
-	margin-top: 100%;
-	margin-right: 10%;
+/*	margin-top: 100%;
+*/	margin-right: 10%;
 
 }
 section.aboutMe h1, section.other h1, section.favourites h1, section.goals h1{
