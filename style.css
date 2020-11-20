@@ -9,6 +9,13 @@ body {
 	padding: 10px;
 	color: #1f1f1f;
 }
+#footer{
+	flex-direction: row;
+	justify-content: space-between;
+	display: flex;
+	padding-top: 25%;
+
+}
 #footer ul{
 
     margin-top: 0px;
@@ -23,6 +30,7 @@ body {
 * {
 	box-sizing: border-box;
 }
+
 p, li{
 	line-height: 1.9;
 	list-style: none;
@@ -34,12 +42,16 @@ section.socialMedia {
 header {
 	direction: rtl;
 	position: fixed;
-	margin-left: 1500px;
+  	right: 0%;
+  	top: 0%;
+  	margin-top: 0.5%;
+  	margin-right: 0.5%;
 }
 
 nav > a {
 	text-decoration: none;
 	padding: 8px;
+	margin: auto;
 	border-radius: 20%;
 }
 
@@ -72,7 +84,6 @@ section.select, section.socialMedia {
 	text-align: center;
 }
 section.select a:link, a:visited{
-	
 	color : #1f1f1f;
 	background-color: transparent;
 	text-decoration: none;
@@ -103,7 +114,7 @@ section.select a{
 }
 
 section.aboutMe , section.other , section.favourites, section.goals{
-	margin-top: 500px;
+	margin-top: 50%;
 	margin-right: 100px;
 
 }
