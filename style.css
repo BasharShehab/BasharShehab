@@ -4,9 +4,10 @@
 }
 	
 body {
-	font-family: Cantarell, Open_Sans, sans-serif;
+	font-family: Cantarell, myFirstFont, sans-serif;
 	margin-top: 0px;
 	padding: 10px;
+	overflow: auto;
 	color: #1f1f1f;
 }
 #footer{
@@ -21,7 +22,7 @@ body {
 }
 #footer ul{
     background-color: #1f1f1f;
-    padding: 32px;
+    padding: 2%;
     color: #f1f1f1;
 }
 
@@ -108,7 +109,7 @@ section.select a{
 }
 
 section.aboutMe , section.other , section.favourites, section.goals{
-	margin-top: 50%;
+	margin-top: 100%;
 	margin-right: 10%;
 
 }
