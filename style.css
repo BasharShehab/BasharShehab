@@ -5,27 +5,31 @@
   src: url(Cantarell/Cantarell-Regular.ttf);
 }
 	
+html {
+	scroll-snap-type: y mandatory;
+
+}
 body {
 	font-family: CanterallImported, myFirstFont, sans-serif;
 	margin-top: 0px;
-	padding: 10px;
+	padding: 0.1%;
 	overflow: auto;
 	color: #1f1f1f;
 }
 #footer{
-	flex-direction: row;
-	justify-content: space-between;
-	padding-top: 25%; 
-/*    margin-top: 50%;
-*/    margin-bottom: -18%;
-    margin-left: -1.2%;
-    margin-right: -1%;
-
-}
-#footer ul{
-    background-color: #1f1f1f;
-    padding: 2%;
-    color: #f1f1f1;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100vh;
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+  padding: 2%;
+  font-size: large;
+  text-align: center;
+  /* tell it to use the sections for the fancy scroll snapping */
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  margin: -1%;
+  max-width: 99.45vw;
 }
 
 * {
@@ -68,14 +72,14 @@ section.welcome p {
 	font-size: 1.4em;
 }
 
-section.pic {
+div.pic {
 	padding-top: 1.5%;
 	text-align: center;
 }
-section.pic >div>a>img {
+div.pic> a>img {
 	border-radius: 50%;
 }
-section.pic span{
+span{
 	font-weight: bold;
 }
 
@@ -115,9 +119,47 @@ section.select a{
 }
 
 section.aboutMe , section.other , section.favourites, section.goals{
-/*	margin-top: 100%;
-*/	margin-right: 10%;
+  /* just so we can see them */
+  border: 1px solid #eee; 
+  
+  /* make it 1 screen high */
+  height: 100vh;
+  
+  /* keep it in one column in the middle of the page */
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  
+  /* the easiest way to vertically center layout content */
+  display: flex;
+  align-items: center;
+  
+  
+  /* add space between the items, and allow them to wrap e.g. on mobile */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+ 
+  /* tell it to use the sections for the fancy scroll snapping */
 
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+  /* thanks, michael <3 */
+
+}
+
+section.firstPanel {
+  /* add space between the items, and allow them to wrap e.g. on mobile */
+
+  text-align: center;
+
+  height: 100vh;
+
+  /* tell it to use the sections for the fancy scroll snapping */
+
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 section.aboutMe h1, section.other h1, section.favourites h1, section.goals h1{
 	text-align: left;
@@ -131,5 +173,4 @@ section.aboutMe p ,section.goals p,section.favourites p,section.other p {
 	text-decoration: none;
 	list-style: none;
 	width: 50%;
-	}
-
+}
